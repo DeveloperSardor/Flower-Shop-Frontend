@@ -1,0 +1,71 @@
+ .gifts-sec{
+    object-fit: cover;
+    .left {
+        padding-top: 1rem;
+      line-height: 1.4rem;
+      .heading {
+        font-family: cursive;
+      }
+      .title {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .desc {
+        word-wrap: break-word;
+        word-break: break-all;
+        width: 85%;
+        color: #333333cc;
+      }
+      .read-more {
+        margin-top: 0.5rem;
+        background: #fff;
+        border: 0.7px solid;
+        padding: 0.9rem;
+        transition: 0.5s ease;
+        width: 150px;
+        a{    
+          text-decoration: none !important;
+          color: #000 ;
+        }
+        &:hover {
+          background: #000;
+          a{
+            color: #fff;
+          }
+        }
+      }
+    }
+    .right {
+      text-align: center;
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+
+  @media only screen and (max-width : 567px){
+    .gifts-sec{
+        flex-direction: column-reverse;
+       
+        .left {
+          margin-top:-90% !important;
+        align-items: center;
+        justify-content: center;
+          margin-top: 2rem;
+          text-align: center;
+          width: 100% !important;
+          .desc{
+            text-align: center !important;
+            margin-left: 1rem;
+          }
+        }
+        .right {
+         
+          text-align: center;
+          width: 100% !important;
+          img {
+            width: 100%;
+          }
+        }
+    }
+  }

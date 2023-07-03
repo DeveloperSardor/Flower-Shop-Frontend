@@ -1,0 +1,223 @@
+.w-60{
+    width: 60%;
+}
+.w-35{
+    width: 35%;
+}
+.page.flowerById {
+    section.firstSec {
+      height: 80vh;
+      color: #fff;
+      background: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/title-img-4.jpg);
+      .main {
+        margin: 2em auto;
+        text-align: center;
+        width: 75%;
+        padding: 8.5em 2em;
+        .text {
+          letter-spacing: 1.2px;
+          font-size: 3.2em;
+          font-weight: 400;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          text-transform: uppercase;
+        }
+      }
+    }
+    section.secondSec{
+        .flower{
+          .left{
+            width: 50%;
+            img{
+              width: 90%;
+            }
+          }
+            .right{
+                .title{
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                     font-size: 2.6em;
+                }
+            }
+        }
+        .comments{
+            margin-top: 4em !important;
+            .comment-item{
+                width: 70%;
+                padding: 1em 2em;
+                .left{
+                    img{
+                        width: 45px ;
+                    }
+                }
+                .center{
+                    outline: none !important;
+                    border: none !important;
+                    &:focus{
+                        
+                        border: none !important;
+                    }
+                }
+            }
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 1400px) {
+    .page.flowerById {
+      section.firstSec {
+        height: 70vh;
+        .main {
+          transform: translateY(3em);
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .page.flowerById {
+      section.firstSec {
+          transform: translateY(-2em);
+        height: 40vh;
+        .main {
+          transform: translateY(5.3em);
+        }
+      }
+      section.secondSec{
+        .addCom{
+          width: 70% !important;
+          ::placeholder{
+            font-size: 16px;
+          }
+        }
+        .flower{
+          width: 90% !important;
+          padding-top: .4em;
+           padding-bottom: 1em;
+          .left{
+            padding-top: 2em;
+            width: 55% ;
+            img{
+              width: 90% !important;
+            }
+          }
+          .right{
+            padding-left: 2em;
+            padding-top: 3em;
+            width: 55%;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .page.flowerById {
+     
+      section.firstSec {
+          transform: translateY(-2em);
+        height: 40vh;
+        .main {
+          transform: translateY(1em);
+        }
+      }
+      section.secondSec{
+        .flower{
+          flex-direction: column;
+           gap: 0.2em !important;
+          .left{
+            width: 80%;
+            img{
+              width: 85%;
+            }
+          }
+          .right{
+            width: 80%;
+            padding-bottom: .5em;
+            p{
+              font-size: 1.4em;
+            }
+            .btn{
+              padding: 0.6em ;
+              font-size: 1.2em;
+            }
+          }
+        }
+        .addCom{
+          width: 70% !important;
+          ::placeholder{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .page.flowerById {
+     
+      section.firstSec {
+          transform: translateY(-2em);
+        height: 45vh;
+        .main {
+          transform: translateY(-1em);
+          padding-bottom: 3em;
+          width: 100% !important;
+        }
+      }
+      section.secondSec{
+        .flower{
+          flex-direction: column;
+          .left{
+           img{
+            width: 85%;
+           }
+          }
+          .right{
+            p{
+              font-size: 1.1em;
+            }
+          }
+        }
+        .addCom{
+          width: 100% !important;
+          ::placeholder{
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  @media only screen and (max-width: 332px) {
+    .page.flowerById {
+      section.firstSec {
+        .main {
+          border: none !important;
+          outline: none !important;
+          font-size: 0.6em;
+          transform: translateY(-1.5em);
+        }
+      }
+      section.secondSec{
+        .flower{
+          .left{
+            img{
+              width: 100% !important;
+            }
+          }
+          .right{
+            .title{
+              font-size: 1.5em;
+            }
+            p{
+              font-size: 1.1em;
+            }
+          }
+        }
+      }
+    }
+  }
+  

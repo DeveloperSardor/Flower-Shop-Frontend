@@ -1,0 +1,51 @@
+.flower_card {
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  margin-top: 2rem;
+
+  &:hover {
+    cursor: pointer;
+    .add-cart {
+      display: flex;
+    }
+    img{
+      filter: brightness(50%);
+    }
+  }
+  img {
+    width: 100%;
+    height: 75%;
+  }
+  .sold{
+    position: absolute;
+    top: 0%;
+    border-radius: 0;
+    padding: .8em;
+    right:0%;
+  }
+  .add-cart {
+    z-index: 99999 !important;
+    top: 0;
+    border: none;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 30%;
+    display: none;
+    &:hover{
+      background: #000 !important;
+      color: #fff !important;
+    }
+  }
+}
+
+@media only screen and (max-width : 567px){
+  .page.standart .add-cart{
+  left: 35%  !important;
+  }
+  .page.home .add-cart{
+    left: 35%;
+  }
+}
+

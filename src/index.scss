@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prosta{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page{
+    overflow: hidden;
+    max-width: 100% !important;
+    section{
+        width: 100%;
+    }
+}
+.related_buy{
+position: fixed;
+top: 75%;
+display: flex;
+flex-direction: column;
+gap: 0.6rem;
+right: 0;
+}
+.related_buy button{
+    border-radius: 4px !important;
+    padding: 0.6rem 0.5rem;
+    -webkit-box-shadow: 2px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 2px 7px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 2px 7px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.related_buy button:nth-child(1){
+    background: crimson !important;
+}
+.related_buy button{
+    background: #fff !important;
+}

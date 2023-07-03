@@ -1,0 +1,81 @@
+.our-team.page{
+    .subscribe{
+        background: #FFF0E9;
+    }
+    color: #333;
+    section.firstSec{
+        height: 80vh;
+        color: #fff !important;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/p2-title-img.jpg);
+        .main {
+            padding-top: 10rem !important;
+            h3 {
+              font-family: "Courier New", Courier, monospace;
+              font-weight: 600;
+              font-size: 3.5rem !important;
+            }
+          }
+    }
+}
+
+
+
+
+
+// bigpaptop
+
+@media only screen and (max-width : 1400px){
+    .our-team.page{
+        header{
+            display: block;
+        }
+        section.firstSec{
+            height: 70vh;
+            .main{
+                padding-top: 4rem !important;
+            }
+        }
+    }
+}
+
+
+// laptop
+@media only screen and (max-width : 1200px){
+    
+    .our-team.page{
+        section.firstSec{
+            height: 60vh;
+        }
+    }
+}
+
+// big pads
+
+@media only screen and (max-width : 992px){
+    .our-team.page{
+        section.firstSec{
+            height: 45vh;
+        }
+    }
+}
+
+// pads
+@media only screen and (max-width : 768px){
+    .our-team.page{
+        section.firstSec{
+            height: 40vh;
+        }
+    }
+}
+
+
+// phones
+@media only screen and (max-width : 567px){
+    .our-team.page{
+        section.firstSec{
+            height: 50vh;
+        }
+    }
+}

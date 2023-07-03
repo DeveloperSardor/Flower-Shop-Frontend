@@ -1,0 +1,400 @@
+.daffodil.page {
+  .subscribe {
+    background: #fff0e9;
+  }
+  color: #333;
+  section.firstSec {
+    height: 83vh;
+    color: #fff !important;
+    background-attachment: fixed;
+    background-size: cover;
+    .main {
+      padding-top: 3rem !important;
+      .buttons {
+        margin-top: 2rem !important;
+        a {
+          padding: 0.8rem 2rem;
+          font-size: 0.9em;
+          transition: 0.4s ease;
+          color: #fff;
+          background: transparent;
+          border: 1px solid #fff;
+          border-radius: 4px;
+          &:hover {
+            background: #fff;
+            border: none;
+            color: #000;
+          }
+        }
+      }
+      .prev,
+      .next {
+        background: none;
+        font-weight: 100 !important;
+        font-size: 2.4rem;
+        //   transform: translateY(3rem);
+        color: #fff;
+        border: none;
+      }
+      .heading {
+        font-size: 3.3rem;
+        font-family: "Satisfy", cursive;
+      }
+      .title {
+        font-weight: 600 !important;
+        font-size: 3em;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .dots {
+        display: none !important;
+        gap: 3.6%;
+        text-align: center;
+        justify-content: center;
+        .dot {
+          cursor: pointer;
+          border-radius: 50%;
+          padding: 0.03rem 0.104rem;
+          // padding: 0.1rem 0.12rem;
+          background: #fff;
+        }
+        .dot.active {
+          padding: 0.4rem 0.3rem;
+        }
+      }
+    }
+  }
+  section.thirdSec {
+    margin-top: 2rem;
+    padding-top: 3rem !important;
+    .heading {
+      text-align: center;
+      font-family: "Satisfy", cursive;
+      font-size: 2rem;
+    }
+    .title {
+      font-weight: 400;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: center;
+    }
+  }
+  section.fourthSec {
+    margin-top: 6%;
+    .statistic {
+      background-attachment: fixed;
+      background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/h1-parallax-img-1.jpg);
+      .box {
+        height: 45%;
+      }
+    }
+  }
+  
+section.fiveSec {
+    margin-top: 3rem;
+    padding: 5rem;
+    background: #fff0e9;
+    .section_txt {
+      text-align: center;
+      font-family: cursive;
+    }
+    .heading_title {
+      margin-top: 1.5rem;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      text-align: center;
+    }
+  }  
+  section.sixSec{
+    padding-bottom: 6.5em !important;
+    padding-top: 4em !important;
+    .heading{
+        font-family: "Satisfy", cursive;
+        text-align: center;
+    }
+    .title{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    .imgs{
+        width: 75%;
+        .flower-img{
+            transition: .4s ease;
+            margin-top: 0.8em;
+            cursor: pointer;
+            width: 30%;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+  }
+}
+
+// bigpaptop
+
+@media only screen and (max-width: 1400px) {
+  .daffodil.page {
+    header {
+      display: block;
+    }
+    section.firstSec {
+      height: 70vh;
+      .main {
+        // border: 1px solid;
+        .next .prev {
+          // transform: translateY(-3em) !important;
+        }
+        padding-top: 0rem !important;
+        .dots {
+          margin-top: 5rem;
+          margin: 2em auto;
+          display: flex !important;
+          .dot {
+            padding: 0.2rem 0.29rem;
+          }
+        }
+        .dot.active {
+          padding: 0.4rem 0.5rem !important;
+        }
+      }
+    }
+    section.fourthSec {
+        .statistic {
+          .box {
+            height: 45%;
+          }
+        }
+      }
+  }
+}
+
+// laptop
+@media only screen and (max-width: 1200px) {
+  .daffodil.page {
+    section.firstSec {
+      height: 65vh;
+      .main {
+        padding: 0 2em !important ;
+        .title {
+          word-break: break-all;
+          font-size: 1.6em;
+        }
+        .dots {
+          .dot {
+            padding: 0.1rem 0.2rem;
+          }
+          .dot.active {
+            padding: 0.3rem 0.4rem !important;
+          }
+        }
+      }
+    }
+    section.fourthSec {
+        .statistic {
+          .box {
+            height: 45%;
+          }
+        }
+      }
+  }
+}
+
+// big pads
+
+@media only screen and (max-width: 992px) {
+  .daffodil.page {
+    section.firstSec {
+      transform: translateY(-3em);
+      height: 40vh;
+      .main {
+        padding: 0 2.5em !important;
+        .title {
+          font-size: 3em;
+        }
+        .buttons {
+          transform: translateY(2em);
+          width: 25% !important;
+        }
+        .dots {
+          transform: translateY(1.5em);
+          .dot {
+            padding: 0.2rem 0.3rem;
+          }
+          .dot.active {
+            padding: 0.4rem 0.5rem !important;
+          }
+        }
+      }
+      .next,
+      .prev {
+        display: none;
+      }
+    }
+    section.fourthSec {
+        .statistic {
+          .box {
+            width: 50%;
+            height: 35%;
+          }
+        }
+      }
+  }
+}
+
+// pads
+@media only screen and (max-width: 768px) {
+  .daffodil.page {
+    section.firstSec {
+      height: 45vh;
+      .main {
+        .dots {
+          transform: translateY(2.7em);
+          .dot {
+            padding: 0.2rem 0.3rem;
+          }
+          .dot.active {
+            padding: 0.4rem 0.5rem !important;
+          }
+        }
+        .buttons {
+          transform: translateY(2em);
+        }
+        .title {
+          font-size: 2.7em;
+        }
+      }
+    }
+    section.fourthSec {
+        .statistic {
+          .box {
+            width: 50%;
+            height: 35%;
+          }
+          // background: #000;
+        }
+      }
+      section.sixSec{
+        .imgs{
+            display: flex;
+            flex-direction: column;
+            transform: scale(1.02) !important;
+            img{
+                margin-top: 1.4em !important;
+                width: 100% !important;
+            }
+        }
+    }
+  }
+}
+
+// phones
+@media only screen and (max-width: 567px) {
+    
+  .daffodil.page {
+    section.firstSec {
+      height: 50vh;
+      .main {
+        .buttons {
+        }
+        .heading {
+          font-size: 1.6em;
+        }
+        .buttons {
+          a {
+            transform: translateY(-1em);
+            width: 110px !important;
+          }
+        }
+        .dots {
+          transform: translateY(4em);
+        }
+        .title {
+          font-size: 1.4em;
+        }
+      }
+    }
+    .thirdSec{
+        padding-top: 2rem !important;
+    }
+    section.fourthSec{
+            .statistic {
+              .box {
+                word-wrap: break-word;
+                height: 30%;
+                width: 50% !important;
+                text-align: start !important;
+                line-height: 1.4rem;
+              }
+            }
+    }
+    section.sixSec{
+        .imgs{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 100% !important;
+            }
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .daffodil.page {
+    section.firstSec {
+      height: 63vh !important;
+      .main {
+        .buttons{
+            transform: translateY(-2em);
+        }
+        .heading{
+            transform: translateY(-1em);
+            font-size: 1.9em;
+        }
+        .dots{
+            transform: translateY(-2em);
+        }
+        .title {
+            transform: translateY(-2em);
+            margin-top: 1em;
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 320px){
+    .daffodil.page{
+        section.firstSec{
+            height: 72vh !important;
+            .heading{
+                transform: translateY(-1em);
+            }
+            .title{
+                font-size: 1.3em !important;
+                transform: translateY(-2em);
+            }
+            .buttons{
+                transform: translateY(-3em) !important;
+            }
+            .dots{
+                transform: translateY(-3.7em) !important;
+            }
+        }
+        section.thirdSec{
+            .offers{
+                width: 100% !important;
+                .offer{
+                    width: 100% !important;
+                }
+            }
+        }
+        section.sixSec{
+            padding-bottom: 3.5em !important;
+        }
+    }
+}

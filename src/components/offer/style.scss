@@ -1,0 +1,62 @@
+.offer {
+  margin-top: 1.5em;
+  border: 1px solid;
+  width: 30%;
+  height: 410px;
+  .top {
+    height: 30%;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+  }
+  .body {
+    color: #000 !important;
+    padding-top: 2rem !important;
+    line-height: 2em;
+    .title {
+      font-size: 1.5rem;
+      font-weight: 300 !important;
+      text-transform: uppercase;
+    }
+    .desc {
+      font-size: 0.9em;
+      color: #0000005d;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    .purchase {
+        text-decoration: none !important;
+        transition: 0.2s ease-in;
+      border: 1px solid #000;
+      font-size: 0.8em;
+      color: #000;
+      background: transparent;
+      padding: 0.5em 1em;
+      &:hover {
+        background: #000;
+        color: #fff;
+      }
+    }
+  }
+}
+
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){
+    .offer{
+        width: 42%;
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width : 912px){}
+@media only screen and (max-width : 768px){
+    .offer{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 567px){
+    .offer{
+        width: 100% !important;
+    }
+}

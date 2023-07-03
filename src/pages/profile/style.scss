@@ -1,0 +1,305 @@
+.custom-upload {
+  width: 300px;
+  margin-top: 0.6em;
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 0.6em;
+  cursor: pointer;
+  border-radius: 2px;
+  input {
+    display: none;
+  }
+}
+
+.custom-upload.change {
+  color: #fff;
+  background: blue;
+  border-radius: 10px;
+}
+.page.profile {
+  section.firstSec {
+    height: 80vh;
+    color: #fff;
+    background: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/title-img-4.jpg);
+    .main {
+      margin: 2em auto;
+      text-align: center;
+      width: 75%;
+      padding: 8.5em 2em;
+      .text {
+        letter-spacing: 1.2px;
+        font-size: 3.2em;
+        font-weight: 400;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  section.secondSec {
+    .register-component {
+      form {
+        .btn {
+          border-radius: 0;
+          width: 10%;
+          font-size: 0.9em !important;
+          padding: 0.9em 0.1em !important;
+        }
+        input:not([type="file"]) {
+          padding: 0.8em;
+          border: none;
+          background: #fff0e9;
+          width: 70%;
+        }
+        .haveaccount {
+          font-size: large;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+          .toRegister {
+            cursor: pointer;
+            text-decoration: underline;
+            color: blue;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+    .login-component {
+      form {
+        margin-top: 2em;
+        input {
+          border: none;
+          padding: 1em;
+          background: #fff0e9;
+          width: 70%;
+        }
+        .dontaccount {
+          font-size: large;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+            sans-serif;
+          .toRegister {
+            cursor: pointer;
+            text-decoration: underline;
+            color: blue;
+            font-weight: 400;
+          }
+        }
+        .btn {
+          border-radius: 0;
+          width: 10%;
+          font-size: 0.9em !important;
+          padding: 0.9em 0.1em !important;
+        }
+      }
+    }
+    .main {
+      width: 90%;
+      .box {
+        .body {
+          .left {
+            width: 30%;
+            img {
+              width: 70%;
+              height: 200px;
+            }
+          
+          }
+          .right {
+            width: 60%;
+            input {
+              border: 0.1px solid;
+              padding: 0.5em;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .page.profile {
+    section.firstSec {
+      height: 70vh;
+      .main {
+        transform: translateY(3em);
+      }
+    }
+   
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+  .page.profile {
+    section.firstSec {
+      transform: translateY(-2em);
+      height: 40vh;
+      .main {
+        transform: translateY(5.3em);
+      }
+    }
+    section.secondSec {
+      .main {
+        .box {
+          width: 100% !important;
+          height: 60vh;
+          .body {
+            flex-direction: column;
+            .left {
+              width: 100%;
+              img {
+                object-fit: contain;
+                width: 100%;
+              }
+              .custom-upload {
+                width: 100% !important;
+                font-size: 1em;
+              }
+            }
+            .right {
+              margin-top: 1em;
+              width: 100%;
+           
+            }
+          }
+          .footer{
+            margin-top: -2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fourcol {
+    width: 175px;
+  }
+  .page.profile {
+    section.firstSec {
+      transform: translateY(-2em);
+      height: 40vh;
+      .main {
+        transform: translateY(1em);
+      }
+    }
+    section.secondSec {
+      .main {
+        .box {
+          width: 100% !important;
+          height: 70vh;
+          .body {
+            flex-direction: column;
+            .left {
+              width: 100%;
+              img {
+                object-fit: contain;
+                width: 100%;
+              }
+              .custom-upload {
+                width: 100% !important;
+                font-size: 1em;
+              }
+            }
+            .right {
+              margin-top: 1em;
+              width: 100%;
+           
+            }
+          }
+          .footer{
+            margin-top: -2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .page.profile {
+    section.firstSec {
+      transform: translateY(-2em);
+      height: 45vh;
+      .main {
+        transform: translateY(-1em);
+        padding-bottom: 3em;
+        width: 100% !important;
+      }
+    }
+    section.secondSec {
+      .main {
+        .box {
+          width: 100% !important;
+          height: 87vh;
+          .body {
+            flex-direction: column;
+            .left {
+              width: 100%;
+              img {
+                width: 100%;
+              }
+              .custom-upload {
+                width: 100% !important;
+                font-size: 0.7em;
+              }
+            }
+            .right {
+              margin-top: 1em;
+              width: 100%;
+            }
+          }
+          .footer{
+            margin-top: -2em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .page.profile {
+    section.firstSec {
+      .main {
+        border: none !important;
+        outline: none !important;
+        font-size: 0.6em;
+        transform: translateY(-1.5em);
+      }
+    }
+    section.secondSec {
+      .main {
+        .box {
+          width: 100% !important;
+          height: 128vh;
+          .body {
+            flex-direction: column;
+            .left {
+              width: 100%;
+              img {
+                width: 100%;
+              }
+              .custom-upload {
+                width: 100% !important;
+                font-size: 0.6em;
+              }
+            }
+            .right {
+              margin-top: 1em;
+              width: 100%;
+            }
+          }
+          .footer{
+            margin-top: -2em;
+          }
+        }
+      }
+    }
+  }
+}

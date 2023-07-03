@@ -1,0 +1,115 @@
+footer{
+    position: relative;
+    padding-top: 1rem!important;
+    padding: 1.3rem;
+    .container{
+        .one.item{
+        .logo{
+            width: 130px;
+        }
+        }
+        .item.three{
+            ul{
+                li{
+                    transition: .2s ease;
+                    cursor: pointer;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .item.four{
+            .images{
+                img{
+                }
+            }
+        }
+        .item{
+            color: #ffffff91;
+            width: 22%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+           
+            .heading{
+                font-weight: 400;
+                color: #fff;
+                font-family: Lora,sans-serif;
+                font-size: 1rem;
+                text-transform: uppercase;
+            }
+            .desc{
+                text-align: start;
+                word-wrap: break-word;
+                margin-top: 1.3em;
+            }
+            a{
+                transition: .1s ease-in-out;
+                color: #ffffff8a;
+                &:hover{
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .reserve{
+        position: absolute;
+        bottom: 3%;
+        left: 35%;
+        color: #ffffff91;
+    }
+}
+
+@media only screen and (max-width : 912px) {
+    footer{
+        .container{
+            align-items: center !important;
+            flex-direction: column !important;
+            .item{
+                width: 90% !important;
+            }
+        }
+        .reserve{
+            position: static;
+            margin-top: 1.2rem;
+        }
+    }
+}
+
+
+@media only screen and (max-width : 768px) {
+    footer{
+        .container{
+            align-items: center !important;
+            flex-direction: column !important;
+            .item{
+                width: 90% !important;
+            }
+        }
+        .reserve{
+            position: static;
+            margin-top: 1.2rem;
+        }
+    }
+}
+
+
+@media  only screen and (max-width : 567px){
+    footer {
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center !important;
+            .item {
+                width: 70%;
+            }
+        }
+        .reserve{
+            word-wrap: break-word;
+            position: static;
+            margin-top: 2rem !important;
+        }
+    }
+} 
+

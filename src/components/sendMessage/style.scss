@@ -1,0 +1,112 @@
+.sendMessage {
+  padding-top: 2rem;
+  width: 75%;
+  margin: 2rem auto;
+  .left {
+    img {
+      width: 100% !important;
+    }
+  }
+  .right {
+    padding: 2rem;
+  }
+  input {
+    width: 40%;
+    padding: 0.5em 1em !important;
+    border-radius: 4px;
+    border: none !important;
+    background: #fff0e9;
+    padding: 0.5em;
+    outline: none !important;
+    &:active {
+      border: none !important;
+      outline: none !important;
+    }
+  }
+  textarea {
+    padding: 0.3em 1em !important;
+    background: #fff0e9;
+    border: none !important;
+    &:focus {
+      border: none !important;
+      outline: none !important;
+    }
+  }
+  .sendMsg {
+    margin-top: 2em;
+    font-size: 0.6rem;
+    background: #000;
+    transition: 0.3s ease;
+    color: #fff;
+    padding: 1.5em 3em;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 992px) {
+  .sendMessage {
+    flex-direction: column;
+    .left {
+      width: 90% !important;
+    }
+    .right {
+      align-items: center;
+      width: 100% !important;
+      flex-direction: column;
+      justify-content: center;
+      input {
+        width: 100%;
+      }
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sendMessage {
+    flex-direction: column;
+    .left {
+      width: 90% !important;
+    }
+    .right {
+      align-items: center;
+      width: 100% !important;
+      flex-direction: column;
+      justify-content: center;
+      input {
+        width: 100%;
+      }
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .sendMessage {
+    flex-direction: column;
+    .left {
+      width: 90% !important;
+    }
+    .right {
+      align-items: center;
+      width: 100% !important;
+      flex-direction: column;
+      justify-content: center;
+      input {
+        width: 100%;
+      }
+      textarea {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+.page.elements {
+  section.firstSec {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: none !important ;
+    background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/title-img-2.jpg);
+    .main {
+      padding-top: 10rem !important;
+      h3 {
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 600;
+        font-size: 3.5rem !important;
+      }
+    }
+  }
+  section.Firstcards {
+    margin-top: 2rem;
+    height: 85vh;
+    .box{
+        padding-bottom: 1rem;
+        line-height: 1.2rem ;
+        .body{
+            transform: translateY(0.3rem) !important;
+        }
+    }
+  }
+  .Secondcards {
+    padding-top: 1.4rem !important;
+    background: #FFF0E9;
+    height: 90vh;
+    .contents{
+        .box{
+            padding-bottom: 1rem;
+            height: 490px;
+            text-align: start;
+            width: 45% !important;
+            .body{
+                padding: 0.4rem 2em;
+                margin-top: 3rem;
+                transform: translateY(-2rem) !important;
+            }
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  header {
+    display: none;
+  }
+  section.Firstcards {
+    height: 50vh;
+  }
+  section.Secondcards{
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    display: none;
+  } 
+}
+
+@media only screen and (max-width: 912px) {
+  header {
+    display: none;
+  }
+  .page.elements {
+    section.firstSec {
+      height: 30vh;
+      .main {
+        padding-top: 6rem !important;
+        h3 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+    section.Firstcards {
+      height: 105vh;
+      .contents{
+        .box{
+
+            height: 530px;
+        }
+      }
+    }
+    section.Secondcards {
+      height: 120vh;
+      .contents{
+        flex-direction: column;
+        .box{
+            line-height: 1rem;
+            word-wrap: break-word;
+            word-break: break-all;
+            width: 100%;
+            height: 600px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .page.elements {
+    section.firstSec {
+      height: 35vh;
+      .main {
+        padding-top: 6rem !important;
+        h3 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+    section.Firstcards {
+      height: 120vh;
+    }
+    section.Secondcards {
+      height: 115vh;
+      .contents{
+        .box{
+            line-height: 1.2rem;
+           width: 95% !important;
+        }
+      }
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  header {
+    display: none;
+  }
+  .page.elements {
+    section.firstSec {
+      height: 30vh;
+      .main {
+        padding-top: 5rem !important;
+        h3 {
+          font-size: 2.5rem !important;
+        }
+      }
+    }
+    section.Firstcards {
+      height: 200vh;
+      .contents{
+        flex-direction: column;
+        justify-content:center;
+        .box{
+            margin-top:1rem !important;
+            height: 470px;
+            line-height: 1rem !important;
+            padding-bottom: 1.2rem;
+            
+        }
+    }
+}
+section.Secondcards{
+    height: 140vh;
+    .contents{
+        flex-direction: column;
+        justify-content: center;
+        .box{
+                margin-top: 1.5 !important;
+                height: 475px;
+                width: 95% !important;
+                line-height: 1rem !important;
+                height: 505px;
+                line-height: 1.3rem !important;
+                padding-bottom: 1rem !important;
+                img{
+                    height: 55%;
+                }
+                .body{
+                    transform: translateY(-3rem) !important;
+                }
+            }
+        }
+    }
+  }
+}
+

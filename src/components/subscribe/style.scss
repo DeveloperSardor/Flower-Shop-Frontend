@@ -1,0 +1,56 @@
+.subscribe {
+    padding-top: 2rem !important;
+    .title {
+      font-weight: 400;
+    }
+    form {
+        padding: 2.3rem;
+        justify-content: center;
+        input {
+          border: none;
+          border-top-left-radius: 3px;
+          border-bottom-left-radius: 3px;
+          width: 70%;
+          padding: 0.7rem;
+        }
+        .sendMessageBtn {
+          width: 25%;
+          background: #000;
+          color: #fff;
+          border-radius: 1px;
+        }
+      }
+}
+
+
+@media only screen and (max-width : 992px){
+    .subscribe {
+        form {
+          width: 100% !important;
+      }
+}}
+
+
+@media only screen and (max-width : 768px){
+    .subscribe {
+        form {
+            width: 100% !important
+          }
+}}
+
+
+@media only screen and (max-width : 567px){
+    .subscribe {
+        width: 100%;
+        form {
+          width: 100% !important;
+          flex-direction: column;
+          input {
+            width: 100%;
+          }
+          .sendMessageBtn {
+            margin: 0.5rem auto;
+            width: 70% !important;
+          }
+        }
+}}

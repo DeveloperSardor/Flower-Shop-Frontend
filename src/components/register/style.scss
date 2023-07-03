@@ -1,0 +1,19 @@
+.register{
+    .modal-dialog{
+        transform: translateY(25%) !important;
+    }
+}
+
+
+@media only screen and (max-width : 1400px){}
+@media only screen and (max-width : 1200px){}
+@media only screen and (max-width : 992px){}
+@media only screen and (max-width : 768px){}
+@media only screen and (max-width : 567px){
+    .register{
+        .modal-dialog{
+            transform: translateY(25%) !important;
+        }
+    }
+}
+@media only screen and (max-width : 332px){}

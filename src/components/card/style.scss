@@ -1,0 +1,25 @@
+.card{
+    margin-top: 0.5rem;
+   word-wrap: break-word;
+   display: flex;
+   flex-direction: column;
+   border: none !important;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   max-width: 300px;
+   line-height: 1.5em;
+h3{
+    margin-top: 1.7rem;
+    font-size: 1.1rem;
+    color: #333333be;
+}
+.desc{
+    margin-top: 0.4rem;
+    color: #A8A8A8;
+}
+     img{
+        width: 30%;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,90 @@
+.about-us.page{
+    .subscribe{
+        color: #fff !important;
+        background-image: url('https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/h2-background-img-2.jpg') !important;
+    }
+    color: #333;
+    section.firstSec{
+        height: 80vh;
+        color: #fff !important;
+        background-attachment: fixed;
+        background-size: cover;
+        background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/p2-title-img.jpg);
+        .main {
+            padding-top: 10rem !important;
+            h3 {
+              font-family: "Courier New", Courier, monospace;
+              font-weight: 600;
+              font-size: 3.5rem !important;
+            }
+          }
+    }
+    section.secondSec{
+        padding-top: 4rem;
+    }
+}
+
+
+// bigpaptop
+
+@media only screen and (max-width : 1400px){
+    .about-us.page{
+        header{
+            display: block;
+        }
+        section.firstSec{
+            height: 70vh;
+            .main{
+                padding-top: 4rem !important;
+            }
+        }
+    }
+}
+
+
+// laptop
+@media only screen and (max-width : 1200px){
+  header{
+    display: block !important;
+  }
+    .about-us.page{
+        section.firstSec{
+            height: 60vh;
+        }
+    }
+}
+
+// big pads
+
+@media only screen and (max-width : 992px){
+    header{
+        display: none !important;
+    }
+    .about-us.page{
+        section.firstSec{
+            height: 45vh;
+        }
+    }
+}
+
+// pads
+@media only screen and (max-width : 768px){
+    header{
+        display: none !important;
+    }
+    .about-us.page{
+        section.firstSec{
+            height: 40vh;
+        }
+    }
+}
+
+
+// phones
+@media only screen and (max-width : 567px){
+    .about-us.page{
+        section.firstSec{
+            height: 50vh;
+        }
+    }
+}

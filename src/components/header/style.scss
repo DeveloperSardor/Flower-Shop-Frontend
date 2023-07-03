@@ -1,0 +1,233 @@
+.w-115{
+  width: 124% !important;
+}
+.mt-6{
+margin-top: 6em !important;
+}
+header {
+  a{
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  li{
+    text-transform: capitalize !important;
+  }
+  .logo img {
+    width: 100px;
+    cursor: pointer;
+  }
+  #portfolio_cat_list {
+    z-index: 999;
+    width: 220px;
+    display: none;
+    transform: translate(10.5rem, -3rem);
+  }
+  
+  .in_drop:hover #portfolio_cat_list {
+    display: block;
+  }
+  .in_drop {
+    text-align: left;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .cart{
+    &:hover{
+      .orders-view{
+        display: block;
+      }
+    }
+    .orders-view{
+      transition: .7s ease;
+      display: none;
+      width: 260px;
+      li{
+        line-height: 1em !important;
+        
+        .body{
+          
+          .center{
+            .title{
+              font-weight: 500;
+            }
+            .onceTotal{
+              font-weight: 500 !important;
+            }
+            .title{
+              font-weight: 400;
+            font-size:medium;
+          }
+        }
+        .right{
+          .delete{
+            background: transparent;
+          border: none !important;
+          }
+         }
+      }
+      }
+    }
+    .totalSum{
+      font-weight: 400;
+      font-size: 18px !important;
+    }
+    .view-cart_btn{
+      &:hover{
+        color: #fff !important;
+      }
+    }
+  }
+  #more {
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    transform: translateX(-90%);
+    display: none;
+    li {
+      padding: 1rem 2rem;
+      .title {
+        font-weight: 700;
+      }
+      p {
+        text-transform: capitalize;
+      }
+    }
+    li:not(:last-child) {
+      border-right: 1px solid #33333390;
+    }
+  }
+
+  .link_item:hover #more {
+    display: flex;
+  }
+
+  .link_item {
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+
+    & ul {
+      display: none;
+      color: #000;
+      background: #fff;
+      display: none;
+      list-style: none;
+      margin-top: 1.5rem;
+      position: absolute;
+      border-radius: 3px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      width: 200px;
+      font-weight: 400;
+      padding: 1.5rem 1rem;
+      min-width: 130px;
+      text-align: center;
+      li {
+        text-align: left;
+      }
+    }
+  }
+  .right {
+    .links {
+      font-weight: 700;
+      font-size: 1.1rem;
+      list-style: none;
+      li {
+        cursor: pointer;
+      }
+    }
+    .count_basket {
+      color: #000;
+      background: #fff0e9;
+      margin: 0.17rem;
+      font-weight: 400;
+      padding: 0.02rem 0.18rem;
+    }
+  }
+  .RightInfo {
+    z-index: 999999999 !important;
+      position: fixed;
+      right: 0;
+      line-height: 1.6rem;
+      width: 30%;
+      -webkit-box-shadow: 46px 0px 59px 10px rgba(34, 60, 80, 0.2);
+      -moz-box-shadow: 46px 0px 59px 10px rgba(34, 60, 80, 0.2);
+      box-shadow: 46px 0px 59px 10px rgba(34, 60, 80, 0.2);
+      background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/sidearea-background.jpg);
+      top: 0;
+      right: 0;
+      height: 100vh;
+      .close {
+        cursor: pointer;
+      }
+      .logo {
+        width: 180px;
+      }
+    
+      .socials {
+        a {
+          color: #000;
+          font-size: 1.1rem;
+        }
+      }
+    }
+}
+
+  
+
+
+
+
+@media only screen and (max-width: 567px){
+  header {
+    display: none !important;
+    
+    .right {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  header {
+    display: none;
+    .right {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 992px){
+  header {
+    display: none ;
+    .right {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 1200px){
+  header {
+    display: none ;
+    .right {
+      width: 75% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  header {
+    display: block;
+    .right {
+      width: 75% !important;
+    }
+  }
+}
+
+

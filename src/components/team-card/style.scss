@@ -1,0 +1,97 @@
+.box.team{
+    margin-top: 2rem;
+    width: 25%;
+    height: 425px;
+    img{
+        object-fit: contain;
+        height: 75%;
+        width: 100%;
+    }
+    .body{
+        line-height: 1rem;
+        transform: translateY(-1.3rem);
+        .job{
+            font-size: 1.1rem;
+            font-family: 'Times New Roman', Times, serif;
+        }
+      
+        .socials {
+            align-items: center;
+            a{
+                cursor: pointer;
+                color: #000;
+                transition: .1s ease;
+                &:hover{
+                    color: #33333387;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 1400px){
+    .box.team{
+        padding-bottom: 0.1rem;
+        margin-left: 1rem;
+        .body{
+            transform: translateY(-2.2em);
+        }
+    }
+}
+
+
+@media only screen and (max-width : 992px){
+    .box.team{
+        padding-bottom: 1rem;
+    margin-top: 1rem;
+    height: 350px;
+        margin-left: 0.5rem;
+        width: 40%;
+        line-height: .3rem;
+        word-wrap: break-word;
+
+      .body{
+        transform: translateY(-0.6rem) !important;
+        .job, .who{
+            color: #000 !important;
+
+        }
+      }
+    }
+}
+@media only screen and (max-width : 768px){
+    .box.team{
+    margin-top: 0.4rem;
+    height: 350px;
+        margin-left: 0.5rem;
+        width: 40%;
+        line-height: .3rem;
+        word-wrap: break-word;
+
+      .body{
+        transform: translateY(-1rem) !important;
+        .job, .who{
+            color: #000 !important;
+
+        }
+      }
+    }
+}
+
+@media only screen and (max-width : 567px){
+    .box.team{
+    height: 350px;
+        margin: 1em auto;
+        width: 70%;
+        line-height: .3rem;
+        word-wrap: break-word;
+
+      .body{
+        transform: translateY(-2.3rem) !important;
+        .job, .who{
+            color: #000 !important;
+
+        }
+      }
+    }
+}

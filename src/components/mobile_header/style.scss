@@ -1,0 +1,208 @@
+.mobile_header {
+
+        text-transform: capitalize !important;
+
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    .top {
+    //   border: 1px solid;
+   .hamburger{
+    cursor: pointer;
+   }
+   .cart{
+    cursor: pointer;
+   }
+   select{
+       cursor: pointer;
+   }
+      .logo {
+        width: 85px;
+      }
+    }
+    .links {
+      z-index: 99999 !important;
+      background: #fff;
+      width: 100%;
+      top: 4rem;
+      left: 0;
+      position: absolute;
+      padding: 0.5rem;
+      .accordion-item {
+        .accordion-header {
+          .accordion-button {
+            font-weight: 700;
+          }
+        }
+        .accordion-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: start;
+          a {
+            text-transform: capitalize;
+            text-decoration: none;
+            padding: 0.4rem;
+            color: #333;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+              sans-serif;
+            &:not(:last-child) {
+              border-bottom: 1px solid #3333336d;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  @media only screen and (max-width : 567px){
+    .mobile_header {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        display: flex !important;
+        .top {
+          border: none !important;
+          padding: 0.2rem 0rem !important;
+          .logo {
+            width: 85px;
+          }
+        }
+        .links {
+          background: #fff;
+          width: 100%;
+          top: 4rem;
+          left: 0;
+          position: absolute;
+          padding: 0.5rem;
+          .accordion-item {
+            .accordion-header {
+              .accordion-button {
+                font-weight: 700;
+              }
+            }
+            .accordion-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: start;
+              a {
+                text-transform: capitalize;
+                text-decoration: none;
+                padding: 0.4rem;
+                color: #333;
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                  sans-serif;
+                &:not(:last-child) {
+                  border-bottom: 1px solid #3333336d;
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+
+
+
+  @media only screen and (max-width : 768px) {
+    .mobile_header {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        display: flex !important;
+        .top {
+          padding: 0.6rem 2rem;
+          justify-content: space-around;
+          align-items: center;
+          .logo {
+            width: 85px;
+          }
+        }
+        .links {
+          background: #fff;
+          width: 100%;
+          top: 4rem;
+          left: 0;
+          position: absolute;
+          padding: 0.5rem;
+          .accordion-item {
+            .accordion-header {
+              .accordion-button {
+                font-weight: 700;
+              }
+            }
+            .accordion-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: start;
+              a {
+                text-transform: capitalize;
+                text-decoration: none;
+                padding: 0.4rem;
+                color: #333;
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                  sans-serif;
+                &:not(:last-child) {
+                  border-bottom: 1px solid #3333336d;
+                }
+              }
+            }
+          }
+        }
+      }
+  }
+
+
+  @media only screen and (max-width : 992px){
+    .mobile_header {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        display: flex !important;
+        .top {
+          padding: 0.6rem 2rem;
+          justify-content: space-around;
+          align-items: center;
+          .logo {
+            width: 85px;
+          }
+        }
+        .links {
+          background: #fff;
+          width: 100%;
+          top: 4rem;
+          left: 0;
+          position: absolute;
+          padding: 0.5rem;
+          .accordion-item {
+            .accordion-header {
+              .accordion-button {
+                font-weight: 700;
+              }
+            }
+            .accordion-body {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: start;
+              a {
+                text-transform: capitalize;
+                text-decoration: none;
+                padding: 0.4rem;
+                color: #333;
+                font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+                  sans-serif;
+                &:not(:last-child) {
+                  border-bottom: 1px solid #3333336d;
+                }
+              }
+            }
+          }
+        }
+      }
+  }

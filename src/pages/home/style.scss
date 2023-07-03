@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.heading{
+  font-family: 'Satisfy', cursive;
+  // font-family:;
+}
+section#one {
+  height: 85vh;
+  color: #fff !important;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .main {
+    .prev,
+    .next {
+      background: none;
+      font-weight: 100 !important;
+      font-size: 2.4rem;
+      transform: translateY(3rem);
+      color: #fff;
+      border: none;
+    }
+    .contents {
+      user-select: none;
+      .welcome_txt {
+        font-size: 2.6em;
+        font-family: 'Satisfy', cursive;
+        // font-family: cursive;
+      }
+      .title {
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .desc {
+        word-wrap: break-word;
+        word-wrap: break-word;
+        width: 60%;
+        font-size: 1rem;
+      }
+      .buttons {
+        margin-top: 2rem !important;
+        a {
+          padding: 0.8rem 2rem;
+          font-size: 0.9em;
+          transition: 0.4s ease;
+          border-radius: 4px;
+          &:hover {
+            background: #fff;
+            border: none;
+            color: #000 !important;
+          }
+        }
+        a.active {
+          border: none;
+          &:hover {
+            color: #fff !important;
+            background: none !important;
+            border: #fff 1px solid;
+          }
+        }
+      }
+    }
+  }
+}
+
+section#two {
+  padding: 3rem;
+  // height: 40vh;
+}
+
+section#three {
+  margin-top: 3rem;
+  padding: 5rem;
+  background: #fff0e9;
+  .section_txt {
+    text-align: center;
+    font-family: cursive;
+  }
+  .heading_title {
+    margin-top: 1.5rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+}
+
+section#four {
+  margin-top: 6%;
+  .statistic {
+    background-attachment: fixed;
+    background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/h1-parallax-img-2.jpg);
+    .box {
+      height: 45%;
+    }
+  }
+
+}
+
+section#five {
+  margin-top: 7%;
+  background-size: cover;
+  height: 80vh;
+  width: 100% !important;
+  background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/h1-parallax-img-2.jpg);
+  .main {
+    .heading {
+      font-family: "Satisfy", cursive;
+      font-size: 3rem;
+    }
+    .dots {
+      display: flex;
+      gap: 3.6%;
+      text-align: center;
+      justify-content: center;
+      .dot {
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 0.03rem 0.104rem;
+        // padding: 0.1rem 0.12rem;
+        background: #fff;
+      }
+      .dot.active {
+        padding: 0.4rem 0.3rem;
+      }
+    }
+  }
+}
+
+section#six {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://rosebud.qodeinteractive.com/wp-content/uploads/2018/02/sidearea-background.jpg);
+  margin-top: 5%;
+  .heading {
+    font-family: "Satisfy", cursive;
+    font-size: 3rem;
+    font-weight: 400 !important;
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 400;
+  }
+}
+
+section#seven {
+  margin-top: 3rem;
+  background: #fff0e9;
+  .imgs {
+    img {
+      height: 100%;
+      width: 25% !important;
+      transition: .5s ease;
+      &:hover{
+        transform: scale(1.02);
+      }
+    }
+  }
+ 
+  }
+
+
+
+
+// big laptops
+@media only screen and (max-width: 1400px) {
+  header{
+    display: block !important;
+  }
+  section#four {
+    .statistic {
+      .box {
+        height: 45%;
+      }
+    }
+  }
+}
+
+
+
+
+// medium laptops
+@media only screen and (max-width: 1200px) {
+  section#four {
+    .statistic {
+      .box {
+        height: 45%;
+        width: 50%;
+      }
+    }
+  }
+}
+
+
+
+
+
+// Ipad Big
+@media only screen and (max-width: 992px) {
+  .home {
+    section#one {
+      height: 50vh;
+      .logo {
+        display: none;
+      }
+    }
+    .next,
+    .prev {
+      display: none;
+    }
+    .contents {
+      padding-top: 4rem !important;
+      .welcome_txt {
+        font-weight: 500;
+        font-size: 1.6rem;
+      }
+      .title {
+        font-size: 2rem !important;
+      }
+      .desc {
+        display: block;
+        font-size: 0.5rem;
+      }
+      .dots {
+        margin-top: 5rem;
+        display: flex !important;
+        .dot {
+          padding: 0.2rem 0.29rem;
+        }
+      }
+      .dot.active {
+        padding: 0.4rem 0.5rem !important;
+      }
+      .buttons {
+        padding-top: 2rem;
+        .btn {
+          margin-left: 0.3rem;
+          padding: 0.2rem 2rem !important;
+        }
+      }
+    }
+  }
+  section#four {
+    .statistic {
+      .box {
+        width: 50%;
+        height: 35%;
+      }
+    }
+  }
+  
+}
+
+
+
+
+// Small Pads
+
+@media only screen and (max-width: 768px) {
+  .home {
+    section#one {
+      height: 70vh !important;
+      .logo {
+        display: none;
+      }
+    }
+    .next,
+    .prev {
+      display: none;
+    }
+    .contents {
+      padding-top: 4rem !important;
+      .welcome_txt {
+        font-weight: 500;
+        font-size: 1.6rem;
+      }
+      .title {
+        font-size: 2rem !important;
+      }
+      .desc {
+        display: block;
+        font-size: 0.5rem;
+      }
+      .dots {
+        display: flex !important;
+        .dot {
+          padding: 0.2rem 0.29rem;
+        }
+      }
+      .dot.active {
+        padding: 0.4rem 0.5rem !important;
+      }
+      .buttons {
+        padding-top: 2rem;
+        .btn {
+          margin-left: 0.3rem;
+          padding: 0.2rem 2rem !important;
+        }
+      }
+    }
+  }
+  section#four {
+    .statistic {
+      .box {
+        width: 50%;
+        height: 35%;
+      }
+    }
+  }
+
+}
+
+
+
+
+// Phones
+
+@media only screen and (max-width: 567px) {
+  .home {
+    section#one {
+      height: 70vh;
+      .logo {
+        display: none;
+      }
+    }
+    .next,
+    .prev {
+      display: none;
+    }
+    .contents {
+      padding-top: 4rem !important;
+      .welcome_txt {
+        font-weight: 500;
+        font-size: 1.2rem;
+      }
+      .title {
+        font-size: 1.3rem !important;
+      }
+      .desc {
+        display: none;
+      }
+      .dots {
+        display: flex !important;
+        .dot {
+          padding: 0.2rem 0.29rem;
+        }
+      }
+      .dot.active {
+        padding: 0.4rem 0.5rem !important;
+      }
+      .buttons {
+        padding-top: 2rem;
+        .btn {
+          margin-left: 0.3rem;
+          padding: 0.2rem 2rem !important;
+        }
+      }
+    }
+  }
+
+  .home {
+    section#one {
+      height: 70vh;
+      .logo {
+        display: none;
+      }
+    }
+    .next,
+    .prev {
+      display: none;
+    }
+    .contents {
+      padding-top: 4rem !important;
+      .welcome_txt {
+        font-weight: 500;
+        font-size: 1.2rem;
+      }
+      .title {
+        font-size: 1.3rem !important;
+      }
+      .desc {
+        display: none !important;
+      }
+      .dots {
+        display: flex !important;
+        .dot {
+          padding: 0.2rem 0.29rem;
+        }
+      }
+      .dot.active {
+        padding: 0.4rem 0.5rem !important;
+      }
+      .buttons {
+        padding-top: 2rem;
+        .btn {
+          margin-left: 0.3rem;
+          padding: 0.2rem 2rem !important;
+        }
+      }
+    }
+  }
+  section#four {
+    .statistic {
+      .box {
+        .number{
+          font-size: 1.7em !important;
+        }
+        .text{
+          font-size: 1.2em;
+        }
+        font-size: 1em !important;
+        word-wrap: break-word;
+        height: 30%;
+        width: 50% !important;
+        text-align: start !important;
+        line-height: 1.4rem;
+      }
+    }
+  }
+  
+  section#seven {
+    .imgs {
+      img {
+        width: 100% !important;
+      }
+    }
+  
+  }
+}
+
+
+@media only screen and (max-width : 320px){
+  section#three{
+    .title{
+      width: 105%;
+      margin-top: 2em;
+      font-size: 0.8em !important;
+    }
+    .card-wrapper{
+      min-height: 120vh;
+      transform: translateX(-5em);
+      flex-direction: column;
+      width: 800px !important; 
+      .flower_card{
+        transform: translateX(-45%);
+        width: 36% !important;
+        height: 480px;
+        .add-cart{
+          transform: translateX(-20%) !important;
+          font-size: 1.5em;
+        }
+       
+      }
+    }
+  }
+  .statistic{
+    flex-direction: column;
+   
+   .box.boxm{
+    width: 100% !important;
+   }
+  }
+}
